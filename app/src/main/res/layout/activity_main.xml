@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    >
+<LinearLayout
+
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -119,6 +126,9 @@
             android:layout_height="wrap_content"
             android:hint="@string/estado"
             android:inputType="text"
+            android:maxLength="2"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
 
             />
 
@@ -126,3 +136,4 @@
     </com.google.android.material.textfield.TextInputLayout>
 
 </LinearLayout>
+</ScrollView>
