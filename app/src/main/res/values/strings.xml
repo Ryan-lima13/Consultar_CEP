@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Consultar CEP</string>
+    <string name="cep">CEP</string>
+    <string name="bt_consultar"> Buscar CEP</string>
+    <string name="logradouro"> Logradouro</string>
+    <string name="bairro">Bairro</string>
+    <string name="cidade">Cidade</string>
+    <string name="estado">Estado</string>
+
 </resources>
